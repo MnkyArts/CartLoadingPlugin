@@ -1,0 +1,54 @@
+{
+  "name": "Liam8mylez",
+  "author": "Liam Robinson",
+  "views": ["@Storefront", "@Plugins", "@Liam8mylez"],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": ["@Storefront", "app/storefront/dist/storefront/js/liam8mylez.js"],
+  "asset": ["@Storefront", "app/storefront/src/assets"],
+  "config": {
+    "sections": {
+      "AddToCartFeedback": {
+        "label": {
+          "en-GB": "Add to Cart Feedback",
+          "de-DE": "Warenkorb Button Feedback"
+        }
+      }
+    },
+    "fields": {
+      "btn-cart-loading-background": {
+        "label": {
+          "en-GB": "Add to Cart loading background",
+          "de-DE": "Warenkorb Button Ladehintergrund"
+        },
+        "type": "color",
+        "value": "#808080",
+        "editable": true,
+        "section": "AddToCartFeedback"
+      },
+      "btn-cart-loading-border": {
+        "label": {
+          "en-GB": "Add to Cart loading border",
+          "de-DE": "Warenkorb Button Rahmenfarbe"
+        },
+        "type": "color",
+        "value": "#808080",
+        "editable": true,
+        "section": "AddToCartFeedback"
+      },
+      "btn-cart-loading-text": {
+        "label": {
+          "en-GB": "Add to Cart loading text",
+          "de-DE": "Warenkorb Button Ladetext"
+        },
+        "type": "text",
+        "value": "Added to shopping cart",
+        "editable": true,
+        "section": "AddToCartFeedback"
+      }
+    }
+  }
+}
