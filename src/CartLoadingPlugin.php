@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Liam8mylez;
+namespace CartLoadingPlugin;
 
 use Shopware\Core\Framework\Plugin;
 use Shopware\Storefront\Framework\ThemeInterface;
 
-class Liam8mylez extends Plugin implements ThemeInterface
+class CartLoadingPlugin extends Plugin implements ThemeInterface
 {
 }

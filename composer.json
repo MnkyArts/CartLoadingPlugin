@@ -5,14 +5,14 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Liam8mylez\\": "src/"
+      "CartLoadingPlugin\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "Liam8mylez\\Liam8mylez",
+    "shopware-plugin-class": "CartLoadingPlugin\\CartLoadingPlugin",
     "label": {
-      "de-DE": "Theme Liam8mylez plugin",
-      "en-GB": "Theme Liam8mylez plugin"
+      "de-DE": "Theme CartLoadingPlugin plugin",
+      "en-GB": "Theme CartLoadingPlugin plugin"
     }
   }
 }
